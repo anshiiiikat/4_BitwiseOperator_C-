@@ -1,1 +1,23 @@
-# 4_BitwiseOperator_C-
+
+# Aim
+To:
+
+Understand how bitwise operators work in C++
+
+Learn how to set (turn ON) and reset (turn OFF) specific bits in a number
+
+# Objectives
+ Use basic bitwise operators like &, |, ^, ~, <<, >>
+
+ Learn how to change just one bit in a number
+
+ Understand how shifting bits left or right changes the whole value
+
+# Theory:
+What Are Bitwise Operators?
+Every number is made of bits (0s and 1s).
+
+Useful when we want to control specific bits — like in LEDs, sensors, switches, flags, etc.
+|Operator|Symbol| Description|
+|--------|------|------------|
+| AND    | &     |  Sets bit to 1 only if both bits are 1|
