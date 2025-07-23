@@ -30,10 +30,12 @@ Sometimes, we don’t want to change the whole number — just one single bit. I
 
 #### To Set a Bit (Make a bit = 1)
 ```num | (1 << 3)```
+
 This keeps all other bits the same, and turns bit at position 3 to 1
 
 #### To Reset a Bit (Make a bit = 0)
 ```num & (~(1 << 4))```
+
 This makes the bit at position 4 = 0, and keeps the rest unchanged.
 
 # Program Description
@@ -75,10 +77,9 @@ OR: 14
 XOR: 14
 NOT: -13
 LEFT_SHIFT: 48
-RIGHT_SHIFT: 1```
+RIGHT_SHIFT: 14
 
-## Set-Reset Operation
-```Enter bit to set: 3
+Enter bit to set: 3
 Enter bit to reset: 4
 SET OUTPUT: 88
-RESET OUTPUT: 64```
+RESET OUTPUT: 64
