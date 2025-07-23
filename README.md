@@ -70,7 +70,7 @@ Set a bit: num | (1 << position)
 
 Reset a bit: num & (~(1 << position))
 # Sample output
-### Bitwise Operator
+### Bitwise Operator and set and reset 
 
 ```AND: 0
 OR: 14
